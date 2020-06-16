@@ -43,6 +43,7 @@ enum{  //返回值
 };
 
 int lept_parse(lept_value* v, const char* json);//解析JSON
+char* lept_stringify(const lept_value* v, size_t* length);
 
 lept_type lept_get_type(const lept_value* v);//获取类型
 
